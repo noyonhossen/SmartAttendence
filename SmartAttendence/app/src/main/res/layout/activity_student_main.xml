@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    tools:context=".StudentActivityMain">
+
+    <Button
+        android:background="@color/button_color"
+        android:id="@+id/studentID1"
+        android:text="ECE 425"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@color/button_color"
+        android:layout_marginTop="20dp"
+        android:id="@+id/studentID2"
+        android:text="ECE 437"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@color/button_color"
+        android:id="@+id/studentID3"
+        android:text="ECE 471"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@color/button_color"
+        android:layout_marginTop="20dp"
+        android:id="@+id/studentID4"
+        android:text="ECE 475"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

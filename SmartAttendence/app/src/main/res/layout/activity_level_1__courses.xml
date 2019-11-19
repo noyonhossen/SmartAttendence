@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    tools:context=".Level_1_Courses">
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>-->
+    <ListView
+        android:gravity="center"
+        android:id="@+id/listViewId_1"
+        android:listSelector="#E91E63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

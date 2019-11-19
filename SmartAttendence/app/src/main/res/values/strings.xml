@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SmartAttendence</string>
+    <string name="map_key" translatable="false">AIzaSyAmz1vPRIlFET5LauaOrS6HuHJfvNOlHzo</string>
+    <string-array name="id_of_students">
+        <item>1502131</item>
+        <item>1502116</item>
+        <item>1502158</item>
+        <item>1502112</item>
+        <item>1502119</item>
+    </string-array>
+    <string-array name="list_level_1">
+        <item>ECE 425</item>
+        <item>ECE 437</item>
+        <item>ECE 471</item>
+        <item>ECE 475</item>
+        <item>ECE 101</item>
+    </string-array>
+    <string-array name="list_level_2">
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+    </string-array>
+    <string-array name="list_level_3">
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+    </string-array>
+    <string-array name="list_level_4">
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+        <item>ECE 101</item>
+    </string-array>
+</resources>

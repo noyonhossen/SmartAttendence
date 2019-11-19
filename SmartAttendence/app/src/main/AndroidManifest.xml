@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tanvirnoor.smartattendence">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeacherFingerPrintAuth"></activity>
+        <activity android:name=".Level_4_Courses" />
+        <activity android:name=".Level_3_Courses" />
+        <activity android:name=".Level_2_Courses" />
+        <activity android:name=".Level_1_Courses"></activity>
+        <activity android:name=".Level" />
+        <activity android:name=".StudentDetails_4" />
+        <activity android:name=".StudentDetails_3" />
+        <activity android:name=".Course_4_Activity" />
+        <activity android:name=".Course_3_Activity" />
+        <activity android:name=".TeacherActivity_2" />
+        <activity android:name=".TeacherLogin" />
+        <activity android:name=".StudentDetailsOfEachID" >
+
+        </activity>
+        <activity android:name=".AllStudents" />
+        <activity android:name=".StudentActivityMain" />
+        <activity android:name=".StudentActivity2" />
+        <activity android:name=".StudentDetails_2" />
+        <activity android:name=".Course_2_Activity" >
+
+        </activity>
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".StudentDetails_1" />
+        <activity
+            android:name=".MainPage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentActivity1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Course_1_Activity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+
+</manifest>
